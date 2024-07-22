@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav img {
+    width: 220px;
+    padding: 10px;
+
+}
+
+.links {
+    list-style: none;
+    gap: 35px;
+    display: flex;
+    font-weight: 900px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.nav-icon {
+    display: flex;
+    gap: 20px;
+}
+
+/* image-section */
+.image-section img {
+    width: 100%;
+}
+
+/* next section */
+.anime {
+    background-color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border: 2px solid rgb(0, 37, 255);
+    border-radius: 15px;
+    text-align: center;
+    animation: stretch 1s linear 1 forwards;
+}
+
+.anime h1 {
+    padding: 10px;
+}
+
+.anime .red {
+    color: rgba(255, 20, 0, 1);
+    font-size: 30px;
+}
+
+.anime .blue {
+    color: rgb(0, 37, 255);
+    font-size: 30px;
+}
+
+.anime p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.anime button {
+    color: white;
+    border-radius: 25px;
+    background-color: #0025ff;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.anime button:hover {
+    background-color: rgba(255, 20, 0, 1);
+}
+
+@keyframes stretch {
+    100% {
+        transform: translatey(-100px);
+    }
+}
+
+.work-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.work-flex-text h1 {
+    color: rgb(0, 37, 255);
+}
+
+.work-flex p {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: light;
+    line-height: 30px;
+}
+
+.work-flex div img {
+    border: 2px solid rgb(0, 37, 255);
+    border-radius: 15px;
+}
+
+.belong {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0025ff;
+    padding: 30px;
+}
+
+.belong-text {
+    color: white;
+    padding: 30px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.difference {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.diff-text {
+    padding: 30px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.diff-text h1 {
+    color: rgb(0, 37, 255);
+}
+
+.diff-text button {
+    border: none;
+    background-color: rgba(255, 20, 0, 1);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: light;
+    border-radius: 25px;
+}
+
+.diff-text button:hover {
+    background-color: rgba(14, 14, 150, 1);
+}
+
+.slide {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-evenly; */
+    padding: 25px;
+}
+
+.slide img {
+    width: 250px;
+}
+
+.more {
+    background-color: black;
+}
+
+.more h1 {
+    color: rgb(0, 37, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+.more img {
+    width: 400px;
+    padding: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.media {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer {
+    padding: 20px;
+    color: white;
+    background-color: #0025ff;
+    text-align: center;
+}
+
+.footer button {
+    background-color: rgba(255, 20, 0, 1);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+}
+.footer button:hover{
+    background-color: #333;
+}
+.footer h1{
+    margin-bottom: 10px;
+}
+.footer p {
+    padding: 10px;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    /* margin-top: 2%; */
+}
+
+.other img {
+    width: 100px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bolder;
+}
+
+.other .sm {
+    display: flex;
+    gap: 20px;
+}
